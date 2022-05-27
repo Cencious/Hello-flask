@@ -10,3 +10,4 @@ def index():#a view function, handler for route defined above.
     #setting up a server
     if __name__=='__main__':
         app.run(debug=True)# run launches the flask dev server. debug set to true to activate debugger and reloader during deployment.
+def main():
